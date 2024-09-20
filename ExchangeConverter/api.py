@@ -17,7 +17,7 @@ def set_theme(root):
 
 
 def get_exchange_rate(base_currency, target_currency):
-    # Döviz kuru API'si için URL ve anahtar (örneğin, OpenExchangeRates veya ExchangeRate-API kullanabilirsiniz)
+    # Döviz kuru API'si için URL ve anahtar (ExchangeRate-API kullanabilirsiniz)
     api_key = 'YOUR_API_KEY'  # Buraya kendi API anahtarınızı girin
     url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/{base_currency}"
 
